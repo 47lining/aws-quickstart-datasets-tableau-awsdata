@@ -2647,35 +2647,6 @@
         </viewpoint>
         <viewpoint name='Taxes Paid and Discount Level by Education Level'>
           <zoom type='entire-view' />
-          <selection-collection>
-            <tuple-selection>
-              <tuple-reference>
-                <tuple-descriptor>
-                  <pane-descriptor>
-                    <x-fields>
-                      <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[none:cd_credit_rating (store_sales):nk]</field>
-                      <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[sum:ss_ext_discount_amt:qk]</field>
-                    </x-fields>
-                    <y-fields>
-                      <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[Education Level]</field>
-                    </y-fields>
-                  </pane-descriptor>
-                  <columns>
-                    <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[Education Level]</field>
-                    <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[none:cd_credit_rating (store_sales):nk]</field>
-                    <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[sum:ss_ext_discount_amt:qk]</field>
-                    <field>[sqlproxy.1aiyx9o0jg2vyl1bb58140wu39yh].[tqr:d_date (store_sales):qk]</field>
-                  </columns>
-                </tuple-descriptor>
-                <tuple>
-                  <value>&quot;4 yr Degree&quot;</value>
-                  <value>&quot;High Risk&quot;</value>
-                  <value>4311943.0</value>
-                  <value>#2000-01-01 00:00:00#</value>
-                </tuple>
-              </tuple-reference>
-            </tuple-selection>
-          </selection-collection>
         </viewpoint>
       </viewpoints>
       <active id='7' />
